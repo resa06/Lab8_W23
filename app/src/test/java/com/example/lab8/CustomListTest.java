@@ -35,10 +35,10 @@ public class CustomListTest {
         CustomList list = new CustomList(null, cityList);
 
         City city = new City("Edmonton", "AB");
-        assertFalse(list.hasCity(city));
+        Assertions.assertFalse(list.hasCity(city));
 
         //Adding the city to the list to check if its in the list
-        list.add(city);
+        list.addCity(city);
         Assertions.assertTrue(list.hasCity(city));
 
     }
