@@ -70,13 +70,13 @@ public class CustomList extends ArrayAdapter<City> {
 
     }
 
-    //public void deleteCity(City city) {
+    public void deleteCity(City city) {
         /**
          * Deletes a city from the custom list
          */
         //Deletes the city on the custom list
         //this.cities.remove(city);
-    //}
+    }
 
     //public void countCities() {
         /**

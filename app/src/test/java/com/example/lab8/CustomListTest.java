@@ -43,21 +43,21 @@ public class CustomListTest {
 
     }
 
-    //@Test
-    //public void testDeleteCity() {
+    @Test
+    public void testDeleteCity() {
 
-        //CustomList list = new CustomList(null, cityList);
+        CustomList list = new CustomList(null, cityList);
 
         //creating a new city
-        //City city = new City("Edmonton", "AB");
+        City city = new City("Edmonton", "AB");
 
         //adding the city
-        //list.add(city);
+        list.addCity(city);
 
         //deleting the city
-        //list.deleteCity(city);
+        list.deleteCity(city);
 
-        //assertFalse(list.getCities.contains(city));
+        assertFalse(list.getCities.contains(city));
     //}
 
     //@Test
