@@ -41,22 +41,21 @@ public class CustomListTest {
 
     }
 
-    //@Test
-    //public void testDeleteCity() {
-
-        //CustomList list = new CustomList(null, cityList);
+    @Test
+    public void testDeleteCity() {
+        CustomList list = new CustomList(null, cityList);
 
         //creating a new city
-        //City city = new City("Edmonton", "AB");
+        City city = new City("Edmonton", "AB");
 
         //adding the city
-        //list.addCity(city);
+        list.addCity(city);
 
         //deleting the city
-        //list.deleteCity(city);
+        list.deleteCity(city);
 
-        //assertFalse(list.hasCities(city));
-    //}
+        assertFalse(list.hasCity(city));
+    }
 
     //@Test
     //public void testCountCities() {
