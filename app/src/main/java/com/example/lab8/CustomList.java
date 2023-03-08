@@ -55,4 +55,28 @@ public class CustomList extends ArrayAdapter<City> {
         //Goal is to just get the method to work
     }
 
+    public boolean hasCity(City city) {
+        /**
+         * Checks if a city is in the list
+         * @return:
+         *      A boolean. True if the city is in the list, and False if the city is not in the list
+         */
+        //Checks if the city is part of the customList
+    }
+
+    public void deleteCity(City city) {
+        /**
+         * Deletes a city from the custom list
+         */
+        //Deletes the city on the custom list
+    }
+
+    public void countCities() {
+        /**
+         * Counts the number of cities in the custom list
+         * @return:
+         *      An integer for the number of cities in the list
+         */
+    }
+
 }
