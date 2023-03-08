@@ -64,20 +64,20 @@ public class CustomList extends ArrayAdapter<City> {
         //Checks if the city is part of the customList
     }
 
-    public void deleteCity(City city) {
+    //public void deleteCity(City city) {
         /**
          * Deletes a city from the custom list
          */
         //Deletes the city on the custom list
-        this.cities.remove(city);
-    }
+        //this.cities.remove(city);
+    //}
 
-    public void countCities() {
+    //public void countCities() {
         /**
          * Counts the number of cities in the custom list
          * @return:
          *      An integer for the number of cities in the list
          */
-    }
+    //}
 
 }

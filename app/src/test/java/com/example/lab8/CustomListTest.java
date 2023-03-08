@@ -32,27 +32,37 @@ public class CustomListTest {
 
     @Test
     public void testHasCity() {
-
-    }
-
-    @Test
-    public void testDeleteCity() {
-
         CustomList list = new CustomList(null, cityList);
 
-        //creating a new city
         City city = new City("Edmonton", "AB");
+        assertFalse(list.hasCity(city));
+
+        //Adding the city to the list to check if its in the list
+        list.add(city);
+        Assertions.assertTrue(list.hasCity(city));
+
+    }
+
+    //@Test
+    //public void testDeleteCity() {
+
+        //CustomList list = new CustomList(null, cityList);
+
+        //creating a new city
+        //City city = new City("Edmonton", "AB");
 
         //adding the city
-        list.add(city);
+        //list.add(city);
 
         //deleting the city
-        list.deleteCity(city);
-    }
+        //list.deleteCity(city);
 
-    @Test
-    public void testCountCities() {
+        //assertFalse(list.getCities.contains(city));
+    //}
+
+    //@Test
+    //public void testCountCities() {
 
 
-    }
+    //}
 }
