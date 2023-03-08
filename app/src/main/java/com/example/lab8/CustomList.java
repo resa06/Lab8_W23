@@ -62,6 +62,11 @@ public class CustomList extends ArrayAdapter<City> {
          *      A boolean. True if the city is in the list, and False if the city is not in the list
          */
         //Checks if the city is part of the customList
+        if (cities.contains(city)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     //public void deleteCity(City city) {
