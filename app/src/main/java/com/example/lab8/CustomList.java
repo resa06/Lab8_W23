@@ -50,7 +50,9 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void addCity(City city){
+        this.cities.add(city);  //we want to implement the methods as simply as we can.
 
+        //Goal is to just get the method to work
     }
 
 }
